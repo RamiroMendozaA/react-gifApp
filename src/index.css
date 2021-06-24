@@ -1,0 +1,39 @@
+html, body {
+  background-color: #21232A;
+  box-sizing: content-box;
+  color: white;
+  font-family: 'JetBrains Mono', 'Arial Narrow', Arial, sans-serif;
+  font-size:  1.2rem;
+}
+
+input {
+  color: grey;
+  font-size: 1.1;
+  width: 25%;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card {
+  align-content: center;
+  border: 1px solid white;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.card p {
+  padding: 5px;
+  text-align: center;
+}
+
+.card img {
+  max-height: 150px;
+}
